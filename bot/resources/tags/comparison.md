@@ -1,11 +1,12 @@
-#### Assignment vs. Comparison
+**Assignment vs. Comparison**
 
-The equals operator (=) is used to assign variables.
+The assignment operator (`=`) is used to assign variables.
 ```python
 x = 5
+print(x) # prints 5
 ```
-The double equals operator (==) is used to compare values.
+The equality operator (`==`) is used to compare values.
 ```python
 if x == 5:
-  ...
+    print("the value of x is 5")
 ```
